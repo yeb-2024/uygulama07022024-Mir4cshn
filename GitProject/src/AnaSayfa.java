@@ -23,6 +23,7 @@ public class AnaSayfa implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
               if(e.getSource() == button){
+                  frame.dispose();
                  ProfilSayfası profilSayfası = new ProfilSayfası();
               }
     }
